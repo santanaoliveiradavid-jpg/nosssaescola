@@ -24,6 +24,7 @@ width: 10%;
 display: flex;
 justify-content: flex-start;
 align-items: center;
+object-fit: cover;
 }
 .titulo_site{
 padding: 50px;
