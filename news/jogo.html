@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nossa Escola - Jogo</title>
+<style>
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; display: flex; flex-direction: column; min-height: 100vh; background-color: #f4f4f9; }
+header { background-color: #333; color: white; padding: 1rem; }
+nav ul { list-style: none; padding: 0; margin: 0; display: flex; gap: 15px; }
+nav ul li a { color: white; text-decoration: none; font-weight: bold; }
+main { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; }
+#game-container { width: 100%; max-width: 800px; height: 450px; background-color: #222; border: 4px solid #333; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.3); display: flex; align-items: center; justify-content: center; color: #fff; position: relative; }
+footer { background-color: #333; color: white; text-align: center; padding: 1rem; margin-top: auto; }
+</style>
+</head>
+<body>
+<header>
+<div class="logo"><h1>Nossa Escola</h1></div>
+<nav>
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="#">Sobre</a></li>
+<li><a href="jogo.html">Jogo</a></li>
+<li><a href="#">Contato</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<h2>Área do Jogo</h2>
+<div id="game-container">
+<p id="loading-text">Carregando mecânicas do jogo...</p>
+</div>
+</main>
+<footer>
+<p>&copy; 2026 Nossa Escola. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
+<script src="script.js"></script>
