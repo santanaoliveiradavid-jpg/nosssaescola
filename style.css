@@ -19,12 +19,14 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.cabecalho-imagem{
-width: 10%;
+.cabecalho_imagem{
+width: 150px;
+height: 150px;
 display: flex;
 justify-content: flex-start;
 align-items: center;
 object-fit: cover;
+
 }
 .titulo_site{
 padding: 50px;
@@ -86,6 +88,13 @@ display:block;
 padding: 50px;
 text-align: center;
 }
+
+.escola_image
+{
+  width: 80%;
+
+}
+
 .logo_rodape{
 height: 80px;
 padding: 12px 0;
